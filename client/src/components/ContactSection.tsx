@@ -140,11 +140,14 @@ export default function ContactSection() {
 
               <div className="space-y-3">
                 <div className="bg-[#d4882a]/15 border border-[#d4882a]/30 p-4 flex justify-between items-center">
-                  <span className="text-[#d4882a] text-xs uppercase tracking-wide font-semibold truncate pr-2 max-w-[140px]" style={{ fontFamily: "var(--font-body)" }}>
-                    {proposal.packages[0]?.name || "Plano Essencial"}
+                  <span className="flex flex-col text-[#d4882a]">
+                    <span className="text-[10px] uppercase font-bold tracking-wider mb-1">Pacote Recomendado</span>
+                    <span className="text-sm font-semibold truncate pr-2 max-w-[140px]" style={{ fontFamily: "var(--font-body)" }}>
+                      {proposal.packages[2]?.name || "Pacote Completo"}
+                    </span>
                   </span>
                   <span className="text-[#d4882a] text-lg font-bold flex-shrink-0" style={{ fontFamily: "var(--font-display)" }}>
-                    R${proposal.packages[0]?.price || "1.200"}/mês
+                    R${proposal.packages[2]?.price || "3.500"}/mês
                   </span>
                 </div>
               </div>

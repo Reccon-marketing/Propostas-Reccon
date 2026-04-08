@@ -83,9 +83,9 @@ export interface ProposalData {
 const DEFAULT_PROPOSAL: ProposalData = {
   clientName: DEFAULT_CLIENT_NAME,
   heroTitle: "Marketing digital",
-  heroSubtitle: `Estratégias validadas para atrair clientes qualificados para o escritório da ${DEFAULT_CLIENT_NAME}. Nossa metodologia integra tráfego pago, CRM inteligente e uma presença digital que gera autoridade e confiança.`,
-  introTitle: "O Cenário Ideal para o Crescimento do Seu Escritório",
-  introText: "Entendemos que o seu objetivo é atrair clientes de alto valor. O mercado jurídico digital exige posicionamento preciso e inteligência na captação de leads, e nossa proposta foca em não apenas atrair, mas qualificar e converter potenciais clientes em consultas reais.",
+  heroSubtitle: `Estratégias validadas para atrair clientes qualificados para a ${DEFAULT_CLIENT_NAME}. Nossa metodologia integra marketing estratégico, processos validados e uma presença digital de dar água na boca.`,
+  introTitle: "O Cenário Ideal para o Crescimento do Seu Negócio",
+  introText: "Entendemos que o seu objetivo atual é atrair e reter todos os dias clientes de alto valor. O mercado digital local exige posicionamento preciso e inteligência na captação, e nossa proposta foca em não apenas atrair a atenção, mas transformar o reconhecimento em vendas diárias.",
   contactEmail: "contato@reccon.com.br",
   packages: DEFAULT_PACKAGES
 };

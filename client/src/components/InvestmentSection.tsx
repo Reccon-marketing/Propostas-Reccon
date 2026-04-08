@@ -208,9 +208,9 @@ export default function InvestmentSection() {
           </motion.p>
         </div>
 
-        {/* Package — single card centered */}
+        {/* Package — grid centered */}
         <div className="flex justify-center mb-12">
-          <div className="w-full max-w-md">
+          <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-8">
             {proposal.packages.map((pkg, index) => (
               <PackageCard key={pkg.id} pkg={pkg} index={index} />
             ))}
