@@ -242,7 +242,7 @@ export default function ScopeSection() {
               className="text-[#d4882a] text-xs font-semibold tracking-[0.2em] uppercase"
               style={{ fontFamily: "var(--font-body)" }}
             >
-              O que faremos
+              O que fazemos?
             </span>
             <span className="h-px w-10 bg-[#d4882a]" />
           </motion.div>
@@ -254,7 +254,7 @@ export default function ScopeSection() {
             className="text-3xl lg:text-5xl font-bold text-[#162d44] mb-4"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            Escopo do Projeto
+            Áreas em que a Reccon pode atuar na escala da sua empresa
           </motion.h2>
 
           <motion.p
