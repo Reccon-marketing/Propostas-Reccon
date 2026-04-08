@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm install -g pnpm && pnpm install && pnpm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
