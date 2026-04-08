@@ -147,7 +147,7 @@ export default function ContactSection() {
                     </span>
                   </span>
                   <span className="text-[#d4882a] text-lg font-bold flex-shrink-0" style={{ fontFamily: "var(--font-display)" }}>
-                    R${proposal.packages[2]?.price || "3.500"}/mês
+                    R${proposal.packages[2]?.price || "3.000"}/mês
                   </span>
                 </div>
               </div>

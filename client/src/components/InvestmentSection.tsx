@@ -279,7 +279,7 @@ export default function InvestmentSection() {
                     <strong className="text-[#162d44]">Investimento em Anúncios:</strong> Todo gasto em anúncios (Meta Ads, Google Ads) é de responsabilidade financeira exclusiva do cliente, pago diretamente nas plataformas.
                   </p>
                   <p>
-                    <strong className="text-[#162d44]">Assinatura do CRM:</strong> A assinatura do software de CRM escolhido é de exclusividade e propriedade do cliente (pagamento via cartão próprio), garantindo total controle sobre os dados e histórico de clientes.
+                    <strong className="text-[#162d44]">Ferramentas de CRM:</strong> A contratação das ferramentas de CRM são exclusivamente por parte do cliente. A agência se responsabiliza estritamente pela configuração avançada, implementação e otimização destas plataformas.
                   </p>
                 </div>
               </div>

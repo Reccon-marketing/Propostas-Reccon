@@ -64,10 +64,11 @@ export const PACKAGES = [
     id: "pacote-1",
     name: "Pacote 1",
     subtitle: "Social Media",
-    price: "2.500",
+    price: "2.000",
     description: "Presença digital atraente e estratégia de conteúdo para destacar a pizzaria na região e gerar engajamento contínuo.",
     includes: [
-      "Gestão de Redes Sociais (Social Media)"
+      "Gestão de Redes Sociais (Social Media)",
+      "Edição dos vídeos captados pelo cliente"
     ],
     notIncludes: [],
     highlighted: false,
@@ -76,7 +77,7 @@ export const PACKAGES = [
     id: "pacote-2",
     name: "Pacote 2",
     subtitle: "Tráfego Pago + Estrutura",
-    price: "2.200",
+    price: "2.000",
     description: "Foco absoluto em conversão e delivery. Anúncios estratégicos somados a um ecossistema inteligente de captação.",
     includes: [
       "Gestão de Tráfego Pago",
@@ -90,11 +91,12 @@ export const PACKAGES = [
     id: "pacote-3",
     name: "Pacote 3",
     subtitle: "Aceleração 360",
-    price: "3.500",
+    price: "3.000",
     description: "A solução completa para lotar o salão todos os dias e escalar o delivery ao máximo.",
     includes: [
       "Gestão de Tráfego Pago",
       "Gestão de Redes Sociais (Social Media)",
+      "Edição dos vídeos captados pelo cliente",
       "Configuração e implementação de ferramentas",
       "Gestão e Otimização"
     ],
