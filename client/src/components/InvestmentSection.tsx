@@ -204,7 +204,7 @@ export default function InvestmentSection() {
             className="text-[#4a5e70] text-lg max-w-2xl mx-auto"
             style={{ fontFamily: "var(--font-body)" }}
           >
-            Uma proposta objetiva e completa, desenhada especialmente para o seu escritório de advocacia.
+            Uma proposta objetiva e completa, desenhada especialmente para o seu negócio.
           </motion.p>
         </div>
 
